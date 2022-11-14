@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts:googleapis.com/icon?family=MAterial+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Hebergement</title>
+</head>
+<body>
+    <nav class="navbar container">
+        <div class="logo"> <img src="images/Booki@3x.png" alt="">
+        </div>
+        <div class="menu-items">
+            <ul>
+                <li ><a href="#" >Hébergements</a></li>
+                <li ><a href="#" >Activités</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+    <div class="A container">
+        <div class="en-tete"><b>Trouver votre hébergement pour des vaccances de rêve</b>
+        </div>
+        <div class="descript"><b>En plein centre ville ou en pleine nature</b>
+            <div class="barre-recherche">
+                <form action="">
+                    <style>
+                        form .height{
+                            height: 30px;
+                        }
+                        .adresse{
+                            width: 130px;
+                            margin-left: -4px;
+                            margin-right: -4px;
+                            border: solid 1px #e5e5e5;
+                        }
+                        .search{
+                            background-color: #0d29ce;
+                            border: #0d29ce;
+                            border-radius: 0px 20px 20px 0px;
+                            padding-left: 5px;
+                            width: 100px;
+                            cursor: pointer;
+                        }
+                        .material-icons{
+                            color: white;
+                        }
+                        .position{
+                            border: solid 1px #e5e5e5;
+                            border-radius: 5px 0px 0px 5px;
+                            width: auto;
+
+                        }
+                        .local{
+                            color: #333;
+                            padding: 6px 9px 5px;
+                            margin: -7px;
+                            background-color: #e5e5e5;
+                            cursor: pointer;
+                            
+                        }
+                        input{
+                            outline: none;
+                        }
+                    </style>
+                    
+                        <button class="position height"><i class="fa-solid fa-location-dot local"></i></button>
+                        <input type="search" name="search" placeholder="Marseille,France" class="adresse height" >
+                        <button type="submit" class="search height">
+                            <div>
+                                <span class="material-icons">Rechercher</span>
+                            </div>
+                        </button>
+                </form>
+            </div>
+            <div class="filtre-items">
+                <a class="space">Filtres</a>
+                <button class="btn space largeur">
+                    <div class="icone">
+                        <i class="fa-solid fa-location-dot style"></i>
+                    </div>
+                    <div><span>Économique</span></div>
+                </button>
+                <button class="btn space largeur">
+                    <div class="icone">
+                        <i class="fa-solid fa-people-robbery"></i>
+                    </div><span>Familial</span></button>
+                <button class="btn space largeur">
+                    <div class="icone"><i class="fa-solid fa-heart"></i></div>
+                    <div><span>Romantique</span></div>
+                </button>
+                <button class="btn space">
+                    <div class="icone">
+                        <i class="fa-solid fa-cat"></i>
+                    </div>
+                    <div><span>Animaux autorisés</span></div>
+                </button>
+            </div>
+            <div class="info">
+                <div class="info-clic"><i class="fa-solid fa-info"></i></div>
+                <div class="info-lib"><a>Plus de 500 logements sont disponibles dans cette ville</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="B container">
+        <div class="cadre-heb">
+            <p>Hébergements à Marseille</p>
+        <div class="cadre-1">
+            <style>
+                .cadre-1{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 10px;
+                    width: 100%;
+                    height: auto;
+                    background-color: aqua;
+                }
+                .cadre-2{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    background-color: rgb(75, 174, 174);
+                }
+            </style>
+            <figure class="001">
+                <img src="./images/001.jpg" alt="" height="120px" width="150px">
+                <figcaption class="size">Auberge La Cannebière</figcaption>
+            </figure>
+            <figure class="001">
+                <img src="./images/001.jpg" alt="" height="120px" width="190px">
+                <figcaption class="size">Auberge La Cannebière</figcaption>
+            </figure>
+            <figure class="001">
+                <img src="./images/001.jpg" alt="" height="120px" width="190px">
+                <figcaption class="size">Auberge La Cannebière</figcaption>
+            </figure>
+        </div>
+        <div class="cadre-2">
+            <figure class="001">
+                <img src="./images/001.jpg" alt="" height="120px" width="190px">
+                <figcaption class="size">Auberge La Cannebière</figcaption>
+            </figure>
+            <figure class="001">
+                <img src="./images/001.jpg" alt="" height="120px" width="190px">
+                <figcaption class="size">Auberge La Cannebière</figcaption>
+            </figure>
+            <figure class="001">
+                <img src="./images/001.jpg" alt="" height="120px" width="190px">
+                <figcaption class="size">Auberge La Cannebière</figcaption>
+            </figure>
+        </div>
+        </div>
+        
+    </div>
+    <div class="C container">Activités à Marseille</div>
+    <div class=" footer container">
+        <ul>
+            <li><a href="#">A propos</a>
+                <p>Fonctionnement du site
+                <br>Conditions générales de vente
+                <br>Données et confidentialité</p>
+            </li>
+            <li>
+                <a href="#">Nos hébergements</a>
+                <p>Charte qualité 
+                <br>Soumettre votre hôtel</p>
+            </li>
+            <li><a href="#">Assistance</a>
+                <p class="">Centre d'aide 
+                <br>Nous contacter</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
